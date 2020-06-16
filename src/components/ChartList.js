@@ -1,5 +1,6 @@
 import React from 'react'
 import Song from './Song.js'
+import '../public/style.css'
 
 const ChartList = (props) => {
 
@@ -8,9 +9,9 @@ const ChartList = (props) => {
   })
 
   return (
-    <ul className="list">
+    <div id="mainWrapper">
       { songs }
-    </ul>
+    </div>
   )
 };
 

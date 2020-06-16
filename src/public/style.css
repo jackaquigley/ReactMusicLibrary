@@ -1,3 +1,35 @@
 div#mainWrapper {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+p.songInfo {
+   margin: 4px;
+}
+
+h4.songPosition {
+  margin: 4px;
+}
+
+div.song {
+  margin: 16px;
+  flex-basis: 0;
+  border: 0.25px solid black;
+}
+
+h1#mainTitle {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 4px;
 }

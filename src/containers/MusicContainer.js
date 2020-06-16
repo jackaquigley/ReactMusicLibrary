@@ -12,7 +12,7 @@ class MusicContainer extends React.Component {
 }
 
     componentDidMount(){
-      const url ='https://itunes.apple.com/gb/rss/topsongs/limit=20/json';
+      const url ='https://itunes.apple.com/gb/rss/topsongs/limit=200/json';
 
       fetch(url)
       .then(res => res.json())
