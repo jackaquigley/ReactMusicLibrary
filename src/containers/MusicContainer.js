@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import ChartList from '../components/ChartList.js'
+import '../public/style.css';
 
 class MusicContainer extends React.Component {
   constructor(props) {
@@ -27,7 +28,9 @@ class MusicContainer extends React.Component {
 
   render(){
     return (
+      <div id="mainWrapper">
       <ChartList songs={this.state.songs}/>
+      </div>
     )
   }
 

@@ -5,7 +5,10 @@ const Song = ({ song, position }) => {
 
   return (
     <li>
-    <h2>{position}</h2>
+    <img src={ song['im:image'][2].label} alt=""/>
+    <h4>{position}</h4>
+    <p>{song['im:name'].label}</p>
+    <p>{song['im:artist'].label}</p>
     </li>
   )
 }
